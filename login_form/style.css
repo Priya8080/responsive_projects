@@ -1,0 +1,82 @@
+html,body{
+    background-color:black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+fieldset{
+   border: 2px solid rgb(217, 255, 0); 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1.2rem; 
+    flex-direction: column;
+}
+legend{
+    font-style: italic;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+.email{
+    display: flex;
+    width: 100%;
+    gap: 0.3rem;
+}
+input{
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid rgb(217, 255, 0); 
+    color: white;
+    
+}
+.password{
+    display: flex;
+    width: 100%;
+    gap: 0.3rem;
+}
+#main{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+button{
+    padding: 0.2rem;
+    width: 90vw;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(217, 255, 0); 
+
+}
+button:hover{
+    color: rgb(217, 255, 0);
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+@media (max-width: 550px){
+    fieldset{
+        width: 100vw;
+        height: 30vh;
+        justify-content:space-evenly
+    }
+    #main{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
