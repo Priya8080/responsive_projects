@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
 html,body{
     background-color: black;
     margin: 0;
@@ -12,9 +20,9 @@ html,body{
     gap: 1rem;
     margin: 3rem;
     padding: 1.3rem;
-    width: 80vw;
+    width: 90vw;
     height: 90vh;
-    border: 2px solid yellow;
+    border: 2px solid rgb(162, 38, 196);
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     color: white;
@@ -33,7 +41,7 @@ html,body{
 button{
     background-color: transparent;
     color: white;
-    box-shadow: 0px 0px 5px yellow;
+    box-shadow: 0px 0px 5px rgb(162, 38, 196);
     margin: 0.3rem;
     padding: 0.3rem;
     border-radius: 8px;
@@ -49,9 +57,9 @@ button{
     border-radius: 8px;
 }
 button:hover{
-    color: yellow;
+    color: rgb(162, 38, 196);
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .container{
         width: 80vw;
     height: 80vh;

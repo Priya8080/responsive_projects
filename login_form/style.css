@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,body{
     background-color:black;
 }
@@ -41,6 +47,7 @@ input{
     
 }
 .password{
+    
     display: flex;
     width: 100%;
     gap: 0.3rem;
@@ -51,6 +58,7 @@ input{
     align-items: center;
     flex-direction: row;
     gap: 3rem;
+    margin: 0.4rem;
 }
 button{
     padding: 0.2rem;
@@ -61,6 +69,8 @@ button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     border: 2px solid rgb(217, 255, 0); 
+    width: 90vw;
+        margin: 0.4rem;
 
 }
 button:hover{
@@ -79,20 +89,43 @@ p{
     #main{
         flex-direction: column;
         justify-content: space-around;
+        gap: 0.3rem;
     }
-}
-@media (max-width: 400px) {
     .email{
         display: flex;
         flex-direction: column;
         gap: 0.2rem;
+        width: 80vw;
     }
     .password{
         display: flex;
         flex-direction: column;
         gap: 0.2rem;
+        width: 80vw;
+    }
+    button{
+        width: 90vw;
+        margin: 0.4rem;
+    }
+}
+/* @media (max-width: 400px) {
+    .email{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        width: 80vw;
+    }
+    .password{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        width: 80vw;
     }
     #main{
         gap: 0.3rem;
     }
-}
+    button{
+        width: 90vw;
+        margin: 0.4rem;
+    }
+} */
