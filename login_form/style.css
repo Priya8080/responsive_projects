@@ -17,8 +17,9 @@ fieldset{
     display: flex;
     align-items: stretch;
     justify-content: center;
-    gap: 1.2rem; 
+    gap: 2rem; 
     flex-direction: column;
+
 }
 legend{
     font-style: italic;
@@ -78,5 +79,20 @@ p{
     #main{
         flex-direction: column;
         justify-content: space-around;
+    }
+}
+@media (max-width: 400px) {
+    .email{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    .password{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    #main{
+        gap: 0.3rem;
     }
 }

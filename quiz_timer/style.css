@@ -1,0 +1,65 @@
+html,body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem;
+    padding: 1.3rem;
+    width: 80vw;
+    height: 90vh;
+    border: 2px solid yellow;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+#options{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 90%;
+    
+    
+}
+button{
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 0px 5px yellow;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 8px;
+      font-weight: 700;
+}
+#qBox{
+    font-style: italic;
+}
+#nextBtn{
+    width: 90%;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+button:hover{
+    color: yellow;
+}
+@media (max-width: 550px) {
+    .container{
+        width: 80vw;
+    height: 80vh;
+    }
+}
+@media (max-width: 400px) {
+    .container{
+        width: 80vw;
+    height: 80vh;
+    }
+}
